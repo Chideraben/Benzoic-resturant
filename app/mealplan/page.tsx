@@ -1,7 +1,7 @@
 "use client";
 import {useState} from "react"
-import { CategoryFilter} from "@/components/CategoryFilter";
-import { MealCard } from "@/components/MealCard";
+import CategoryFilter from "@/components/CategoryFilter";
+import  MealCard  from "@/components/MealCard";
 //sample meal data
 
 const meals= [
@@ -27,7 +27,7 @@ const meals= [
 
 const categories = ["All", ...new Set(meals.map((meal) => meal.category))]
 
-export const Menu = () =>{
+const Menu = () =>{
     const [selectedCategory, setSelectedCategory] = useState("All")
     //Filter meals based on selected category
     const filteredMeals = selectedCategory === "All" ? meals : meals.filter((meal) => meal.category === selectedCategory);
@@ -58,3 +58,4 @@ export const Menu = () =>{
         </div>
     )
 }
+export default Menu

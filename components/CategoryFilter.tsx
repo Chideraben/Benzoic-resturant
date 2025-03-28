@@ -4,7 +4,7 @@ interface CategoryFilterProps {
     selectedCategory: string;
     setSelectedCategory: (category: string) => void;
 }
-export const CategoryFilter = ({categories, selectedCategory, setSelectedCategory}: CategoryFilterProps)=> {
+ const CategoryFilter = ({categories, selectedCategory, setSelectedCategory}: CategoryFilterProps)=> {
     return(
         <div className="flex justify-center gap-2 mb-6">
             {categories.map((category) => (
@@ -21,3 +21,4 @@ export const CategoryFilter = ({categories, selectedCategory, setSelectedCategor
         </div>
     )
 }
+export default CategoryFilter;

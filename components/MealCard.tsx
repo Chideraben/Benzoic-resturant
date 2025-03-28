@@ -10,7 +10,7 @@ interface MealProps{
         image: string;
     }
 }
-export const MealCard = ({meal} : MealProps)=>{
+const MealCard = ({meal} : MealProps)=>{
     return(
         <div className="bg-[white] p-4 rounded-lg shadow-md">
             <img src={meal.image} alt={meal.name} className="w-full object-cover rounded-lg" />
@@ -20,3 +20,4 @@ export const MealCard = ({meal} : MealProps)=>{
         </div>
     )
 }
+export default MealCard;

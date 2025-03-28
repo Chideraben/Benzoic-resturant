@@ -3,7 +3,7 @@ import Rice from "@/public/rice.svg"
 import Input_ from "postcss/lib/input"
 import { BsQuestion } from "react-icons/bs"
 import { BiSearch } from "react-icons/bi"
-export const Hero =()=>{
+const Hero =()=>{
     return(
         <main className="flex flex-wrap gap-4 sm:bg-[#ffffff] bg-[#DA3743] justify-center items-center min-h-[100vh] pt-[100px] p-7">
             <div className="grid gap-7">
@@ -36,3 +36,4 @@ export const Hero =()=>{
         </main>
     )
 }
+export default Hero;

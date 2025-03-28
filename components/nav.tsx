@@ -8,7 +8,7 @@ import Link from "next/link"
 import { CgClose } from "react-icons/cg"
 import { HiHome } from "react-icons/hi2"
 import { FaPlaneSlash } from "react-icons/fa6"
-export const Navbar =()=>{
+const Navbar =()=>{
     const [isOpen, setIsOpen] = useState(false)
     
     return(
@@ -67,3 +67,4 @@ export const Navbar =()=>{
 
     )
 }
+export default Navbar;
