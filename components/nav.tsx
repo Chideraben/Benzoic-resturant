@@ -32,7 +32,7 @@ export const Navbar =()=>{
             </div>
 
             <div className="sm:flex sm:items-center space-x-4 hidden ">
-                <Link href={'/menu'} >Sign In</Link>
+                <Link href={''} >Sign In</Link>
                 <button className="bg-[#DA3743] p-4 rounded-full text-white">Create Account</button>
             </div>
             
