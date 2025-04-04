@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 interface MealProps{
     meal:{
@@ -13,11 +12,16 @@ interface MealProps{
 }
 const MealCard = ({meal} : MealProps)=>{
     return(
-        <div className="bg-[white] p-4 rounded-lg shadow-md">
-            <img src={meal.image} alt={meal.name} className="w-full object-cover rounded-lg" />
-            <h3 className="text-lg font-semibold mt-2">{meal.name}</h3>
-            <p>{meal.details}</p>
-            <p className="text-gray-700">₦{meal.price}</p>
+        <div className="bg-[white] rounded-lg shadow-md">
+            <section>
+                <img src={meal.image} alt={meal.name} className="w-full object-cover rounded-lg" />
+            </section>
+            <section className="flex flex-col gap-2 p-2">
+                <h3 className="text-xl font-bold ">{meal.name}</h3>
+                <p className="font-normal text-sm h-[40px] text-[#999999]">{meal.details}</p>
+                <p className="text-[#999999] font-medium text-2xl text-[#666666]">₦{meal.price}</p>
+            </section>
+            
         </div>
     )
 }
