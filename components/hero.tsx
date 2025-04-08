@@ -5,7 +5,7 @@ import { BsQuestion } from "react-icons/bs"
 import { BiSearch } from "react-icons/bi"
 const Hero =()=>{
     return(
-        <main className="flex flex-wrap gap-4 sm:bg-[#ffffff] bg-[#DA3743] justify-center items-center min-h-[100vh] pt-[100px] p-7">
+        <main className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 sm:bg-[#ffffff] bg-[#DA3743] justify-center place-items-center min-h-[100vh] pt-[100px] p-7">
             <div className="grid gap-7">
                 <section>
                     <h1 className="max-w-[600px] sm:text-[black] text-[#ffffff] sm:font-bold font-normal text-6xl">Delicious meals at your convenience</h1>

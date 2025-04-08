@@ -26,7 +26,7 @@ const AboutUs = ()=>{
                     <section className="w-full flex justify-end">
                        <Image src={RedIcon} alt="icon"/>
                     </section>
-                    <h1 className="text-lg font-normal text-[#67758D]">White dwarf a still more glorious dawn awaits tingling of the spine 
+                    <h1 className="text-xs sm:text-lg  font-normal text-[#67758D]">White dwarf a still more glorious dawn awaits tingling of the spine 
                         emerged into consciousness Vangelis shores of the cosmic ocean. 
                         Tendrils of gossamer clouds kindling the energy hidden in matter concept
                         of the number one permanence.

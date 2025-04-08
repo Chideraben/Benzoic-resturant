@@ -4,6 +4,7 @@ import  Hero  from "@/components/hero";
 import Menu  from "./mealplan/page";
 import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
+import Blog from "@/components/Blog";
 export default function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <Menu />
       <AboutUs/>
+      <Blog/>
       <Footer/>
     </div>
   );

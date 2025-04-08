@@ -31,7 +31,7 @@ const Footer =()=>{
                 </div>
             </div>
 
-            <div className="border-[#B3B3B3] border-t-1 flex justify-between items-center w-[70%]">
+            <div className="border-[#B3B3B3] border-t-1 block sm:flex justify-between items-center w-[70%]">
                 <section>
                     <h1 className="text-[#333333] font-normal text-xs">© 2022 Meals. All rights reserved.</h1>
                 </section>
