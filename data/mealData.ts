@@ -19,3 +19,14 @@ const MealsData= [
     }
 ];
 export default MealsData
+
+export interface NewsProps{
+    blog:{
+        id: number;
+        name: string;
+        category: string;
+        details: string;
+        image: string;
+    }
+}
+
